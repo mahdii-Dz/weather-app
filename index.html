@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <title>weather app</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body tabindex="0">
+      <h1>Weather app</h1>
+      <div class="container ">
+        <form>
+          <input type="text" placeholder="enter your city" id="search">
+          <button onclick=""><i class='bx bx-search-alt-2'></i></button>
+        </form>
+        <div class="result">
+          <div class="name" id="city">
+            <h4>alger</h4>
+            <img src="https://flagsapi.com/DZ/flat/32.png">
+          </div>
+          <div class="temperature-container" id="temperature">
+            <img src="https://openweathermap.org/img/wn/10d@4x.png" alt="">
+            <div class="temp">
+              <span>32</span>
+              <span>°</span>
+            </div>
+          </div>
+          <p class="description">
+            Overcast Clouds
+          </p>
+          <ul>
+            <li>
+              <span>Clouds</span>
+              <i class='bx bxs-cloud'></i>
+              <span id="clouds">75</span>%
+            </li>
+            <li>
+              <span>Humidity</span>
+              <i class='bx bxs-droplet' ></i>
+              <span id="humidity">35</span>%
+            </li>
+            <li>
+              <span>Pressure</span>
+              <i class='bx bxs-tachometer' ></i>
+              <span id="Pressure">1001</span> hPa
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+          
+
+
+      <script src="main.js"></script>
+    </body>
+</html>
